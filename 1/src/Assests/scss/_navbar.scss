@@ -1,0 +1,24 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.nav-but{
+    font-size: 15px !important;
+    background-color: inherit!important;
+    border: none !important;
+    color: inherit !important;
+    text-align: center;
+}
+
+.nav-dark{
+    background-color: $darkBlue-background-color;
+    color: $White-text-color;
+}
+
+.nav-light{
+    background-color: $White-text-color;
+    color: $VeryDarkBlue-text-color;
+}

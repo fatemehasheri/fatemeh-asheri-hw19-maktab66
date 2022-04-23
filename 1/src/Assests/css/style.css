@@ -1,0 +1,169 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+
+.nav-but {
+  font-size: 15px !important;
+  background-color: inherit !important;
+  border: none !important;
+  color: inherit !important;
+  text-align: center;
+}
+
+.nav-dark {
+  background-color: hsl(209deg, 23%, 22%);
+  color: hsl(0deg, 0%, 100%);
+}
+
+.nav-light {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(200deg, 15%, 8%);
+}
+
+.card-countries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: none !important;
+}
+
+.card-light {
+  background-color: hsl(0deg, 0%, 98%);
+  color: hsl(200deg, 15%, 8%);
+}
+
+.card-dark {
+  background-color: hsl(207deg, 26%, 17%);
+  color: hsl(0deg, 0%, 100%);
+}
+
+.card2-dark {
+  background-color: hsl(209deg, 23%, 22%);
+  height: 200px;
+}
+
+.card2-light {
+  height: 200px;
+  color: hsl(200deg, 15%, 8%);
+}
+
+.card-img {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  height: 135px;
+}
+
+.card {
+  width: 14rem;
+  border: none !important;
+  font-size: 12px;
+}
+
+.link {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.link:hover {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.h1 {
+  text-align: center;
+  margin-top: 30px !important;
+}
+
+.input {
+  margin-top: 40px;
+  margin-left: 60px;
+  font-size: 15px !important;
+  background-color: hsl(0deg, 0%, 100%) !important;
+  border: none !important;
+  border-radius: 5px;
+  color: hsl(200deg, 15%, 8%) !important;
+  width: 300px;
+  height: 35px;
+}
+
+.country-btn {
+  width: 100px !important;
+  font-size: 15px !important;
+  background-color: #fff !important;
+  border: none !important;
+  color: #000 !important;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 3px;
+}
+
+.flex {
+  display: flex;
+  margin-right: 100px;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.country-ul {
+  list-style: none;
+}
+
+.country-ul-li {
+  margin-top: 50px;
+}
+
+.country-img {
+  width: 400px;
+  height: 300px;
+}
+
+.country-border {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.country-name-border {
+  margin-right: 10px;
+}
+
+.country-btn1 {
+  font-size: 15px !important;
+  background-color: #fff !important;
+  border: none !important;
+  color: #000 !important;
+  text-align: center;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 750px) {
+  .flex {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+
+  .country-ul {
+    margin-top: 20px;
+  }
+
+  .country-img {
+    text-align: center;
+  }
+
+  .country-border {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .mb {
+    height: 35rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

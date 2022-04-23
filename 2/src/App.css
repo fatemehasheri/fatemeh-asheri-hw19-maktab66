@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.formEdit{
+  width: 300px !important;
+  margin-top: 30px;
+}
+.link{
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.flex{
+  display: flex !important;
+  justify-content: center ;
+}

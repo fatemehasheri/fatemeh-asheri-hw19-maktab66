@@ -1,0 +1,23 @@
+@media screen and( max-width: 750px ) {
+    .flex{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+        margin-right: 100px;
+        margin-top: 50px;
+    }
+    .country-ul{
+        margin-top: 20px;
+    }
+    .country-img{
+        text-align: center;
+    }
+    .country-border{
+        margin-bottom: 20px;
+    }
+}
+@media screen and( min-width: 1000px ) {
+    .mb{
+        height: 35rem;
+    }
+}
